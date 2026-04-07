@@ -36,6 +36,11 @@ For training the sparse attention network
 - Sparse attention for small datasets
 - BFGS-based constant optimization
 
+| Model                  | Dataset           | Token Accuracy | Levenshtein Accuracy |
+|------------------------|------------------|----------------|----------------------|
+| Sparse (from scratch)  | Feynman          | 0.32           | 0.54                 |
+| Sparse (finetuned)     | Augmented Feynman| 0.51           | 0.76                 |
+
 ## Author
 Arsh Abbas Naqvi
 GitHub: https://github.com/arsh-6626
