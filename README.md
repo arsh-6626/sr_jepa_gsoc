@@ -36,7 +36,7 @@ For training the sparse attention network
 - Sparse attention for small datasets
 - BFGS-based constant optimization
 
-##Results
+## Results
 
 | Model                  | Dataset           | Token Accuracy | Levenshtein Accuracy |
 |------------------------|------------------|----------------|----------------------|
