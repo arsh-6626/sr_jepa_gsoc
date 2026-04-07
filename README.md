@@ -4,6 +4,7 @@
 This project implements a Joint Embedding Predictive Architecture (JEPA) with a decoder-only transformer for symbolic regression. Instead of explicit tree search, it learns latent representations of data clouds and maps them to symbolic expressions in prefix form.
 
 ## Repository Structure
+```
 src/
   datasets/        # Data loading & preprocessing
   embeddings/      # T-Net (data cloud encoder)
@@ -20,10 +21,13 @@ utils/
   FeynmanPrefixEquations.csv
   FeynmanAugmentPrefixEquations.csv
   vocab_bfgs_prefix.json
-
+```
 ## Training
-python src/train.py
-python src/train_sparse.py
+For training the dense attention network 
+` python src/train.py`
+
+For training the sparse attention network
+`python src/train_sparse.py`
 
 ## Features
 - JEPA-based representation learning
